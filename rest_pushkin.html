@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пушкин</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Трактир «Пушкин»</title>
 </head>
 <body>
     <header class="header">
         <div class="container header__container">
             <div class="header__logo">
-                <a href="#" class="nav__link">
+                <a href="index.html" class="nav__link">
                     <img src="img/svg/logo.svg" alt="UBEREATS" class="logo__img" height="14px">
                 </a>
             </div>
@@ -29,7 +37,141 @@
         </div>
     </header>
     <main class="main">
-        
+        <header class="hero">
+            <div class="container hero__container">
+                <div class="hero__about">
+                    <h1 class="about__title">Трактир «Пушкин»</h1>
+                    <div class="about__footer">
+                        <span class="about__type">₽₽₽ • Европейская</span>
+                        <span class="about__dTime">40 - 50 мин</span>
+                    </div>
+                </div>  
+            </div>
+        </header>
+        <div class="tabs">
+            <nav class="tabs__nav">
+                <div class="container nav__container">
+                    <ul class="tabs__list">
+                        <li class="tabs__item checked">
+                            Закуски
+                        </li>
+                        <li class="tabs__item">
+                            Салаты
+                        </li>
+                        <li class="tabs__item">
+                            Супы
+                        </li>
+                        <li class="tabs__item">
+                            Горячие блюда
+                        </li>
+                        <li class="tabs__item">
+                            Гарниры
+                        </li>
+                        <li class="tabs__item">
+                            Десерты
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="tab__content">
+                <div class="container tabs__container">
+                    <h2 class="tab__title">Закуски</h2>
+                    <hr class="title__hr">
+                    <div class="row dishes">
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="dishes__card">
+                                <div class="card__description">
+                                    <div class="description__header">
+                                        <h3 class="description__title">Сельдь на бородинском хлебе</h3>
+                                        <p class="description__content">С яйцом и огурцом</p>
+                                    </div>
+                                    <div class="description__footer">
+                                        <span class="price__value">240</span>
+                                        <span class="price__currency">&#8381</span>
+                                    </div>
+                                </div>
+                                <img src="img/rest_pushkin/dishes/d1.jpg" alt="" class="card__img" width="170">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="dishes__card">
+                                <div class="card__description">
+                                    <div class="description__header">
+                                        <h3 class="description__title">Соленья ассорти</h3>
+                                        <p class="description__content"></p>
+                                    </div>
+                                    <div class="description__footer">
+                                        <span class="price__value">320</span>
+                                        <span class="price__currency">&#8381</span>
+                                    </div>
+                                </div>
+                                <img src="img/rest_pushkin/dishes/d2.jpg" alt="" class="card__img" width="170">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="dishes__card">
+                                <div class="card__description">
+                                    <div class="description__header">
+                                        <h3 class="description__title">Грибы маринованные</h3>
+                                        <p class="description__content"></p>
+                                    </div>
+                                    <div class="description__footer">
+                                        <span class="price__value">300</span>
+                                        <span class="price__currency">&#8381</span>
+                                    </div>
+                                </div>
+                                <img src="img/rest_pushkin/dishes/d3.jpg" alt="" class="card__img" width="170">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="dishes__card">
+                                <div class="card__description">
+                                    <div class="description__header">
+                                        <h3 class="description__title">Сало домашнее с горчицей</h3>
+                                        <p class="description__content"></p>
+                                    </div>
+                                    <div class="description__footer">
+                                        <span class="price__value">320</span>
+                                        <span class="price__currency">&#8381</span>
+                                    </div>
+                                </div>
+                                <img src="img/rest_pushkin/dishes/d4.jpg" alt="" class="card__img" width="170">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="dishes__card">
+                                <div class="card__description">
+                                    <div class="description__header">
+                                        <h3 class="description__title">Малосольная семга</h3>
+                                        <p class="description__content"></p>
+                                    </div>
+                                    <div class="description__footer">
+                                        <span class="price__value">390</span>
+                                        <span class="price__currency">&#8381</span>
+                                    </div>
+                                </div>
+                                <img src="img/rest_pushkin/dishes/d5.jpg" alt="" class="card__img" width="170">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="dishes__card">
+                                <div class="card__description">
+                                    <div class="description__header">
+                                        <h3 class="description__title">Язык говяжий с хреном</h3>
+                                        <p class="description__content"></p>
+                                    </div>
+                                    <div class="description__footer">
+                                        <span class="price__value">350</span>
+                                        <span class="price__currency">&#8381</span>
+                                    </div>
+                                </div>
+                                <img src="img/rest_pushkin/dishes/d6.jpg" alt="" class="card__img" width="170">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container footer__container">
@@ -38,7 +180,7 @@
             </div>
             <hr class="footer__hr">
             <div class="about row">
-                <div class="col-xs-12 col-md-4">
+                <div class="col-xs-12 col-md-4 footer__column">
                     <div class="lang__container">
                         <img src="img/svg/world.svg" alt="">
                         <select name="select" class="lang__select">
@@ -67,7 +209,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4">
+                <div class="col-xs-12 col-md-4 footer__column">
                     <ul class="about__list">
                         <li class="about__item">
                             <a href="#" class="footer__link">
@@ -86,7 +228,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-4">
+                <div class="col-xs-12 col-md-4 footer__column">
                     <ul class="about__list">
                         <li class="about__item">
                             <a href="#" class="footer__link">
